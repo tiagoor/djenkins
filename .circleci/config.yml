@@ -9,7 +9,7 @@ jobs:
       - setup_remote_docker
       - run:
           name: Greeting
-          command: echo The base belong to vs....
+          command: echo "The base belong to vs...."
       - run:
           name: Print the Current Time
           command: date
