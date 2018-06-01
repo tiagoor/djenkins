@@ -1,5 +1,5 @@
 FROM openjdk:8u121-jdk-alpine
-MAINTAINER Tor <tor@openstack.eti.br>
+MAINTAINER Tor tor@openstack.eti.br
 RUN apk add --no-cache git openssh-client curl unzip bash ttf-dejavu coreutils
 
 ARG user=jenkins
